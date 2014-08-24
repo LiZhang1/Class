@@ -1,11 +1,11 @@
 ---
-title: "pml_project_v2"
+title: "PML_project"
 author: "Li Zhang"
 date: "August 24, 2014"
 output: html_document
 ---
 
-## Introduction
+# Introduction
 The data for this project come from this source: <http://groupware.les.inf.puc-rio.br/har>. Six participants were asked to perform barbell lifts correctly and incorrectly in 5 different ways and the data were collected from accelerometers on the belt, forearm, arm, and dumbell of the participants. The goal of this project is to predict the manner in which they did the exercise.
-## Methods
-The training data set was used to build the prediction model and the test data set was used to validate the model. The training data have 19622 observations and 160 variables. The outcome is the "classe" variable in the data set. Up to 67 Variables with only 406 observation, which had about 97.9% missing data were first excluded from the prediction variables selection. The rest 92 variables were examined.
+# Methods
+The training data set was used to build the prediction model and the test data set was used to validate the model. The training data have 19622 observations and 160 variables. The outcome is the "classe" variable in the data set. Up to 67 Variables with only 406 observation, which had about 97.9% missing data were first excluded from the prediction variables selection. The rest 92 variables were examined for their variations and correlations.
